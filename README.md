@@ -88,6 +88,7 @@ You may also notice Lilly doesn't have a Surprise.ptable file like Kenny, you ca
 
 
 ## Rehashed Models 
+Some characters reuse the same animations so you can simply swap their prop files only without all the hassle. 
 
 ### TWDG Season 1:
 
