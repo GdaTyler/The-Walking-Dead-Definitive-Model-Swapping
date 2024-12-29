@@ -54,7 +54,7 @@ Do this same process for the txmesh and anichore ttarch2 files for episode 1 so 
 
 So to swap Lilly into Kenny you must first look at her prop file.
 
-Males usually for Season 1 start with sk54_, females, sk55_ and children sk56_
+Males usually for Season 1/2 start with sk54_, females start with sk55_, and children start with sk56_
 Lilly's prop file is named sk55_lilly.prop
 So try to use Kenny's data folder as a reference to rename this file. As we can see her prop name is sk54_kenny.prop
 
