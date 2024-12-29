@@ -32,7 +32,7 @@ Lastly, within the anichore ttarch2 these are the only files you need to worry a
 
 .anm animation files
 
-So to open these ttarch2 files you will need Telltale Explorer. The link is in the description.
+So to open these ttarch2 files you will need Telltale Explorer. You can download it here: https://quickandeasysoftware.net/software/telltale-explorer
 
 ![image](https://github.com/user-attachments/assets/64591c45-0d84-46e4-a88b-44a2e1df0dce)
 
