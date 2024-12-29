@@ -81,11 +81,37 @@ This is pretty much the same deal for swapping the .anm files for two characters
 Another problem you may encounter is this:
 You may also notice Lilly doesn't have a Surprise.ptable file like Kenny, you can use her Fear.ptable files instead as they convey similar emotions. You can use whatever files you feel are appropriate or closest.
 
+The same process is followed for swapping the .anm files concerned with emotion. Usually they will look like this:
+
+Examples for Season 1:
+kenny_face_angryA.anm
+sk55_idle_lillyangryA.anm
+
+Examples for Season3-4
+david_face_moodAngryA.anm
+
+There are also files that deal with eye direction that you may need to swap. Theey may look like this:
+
+Examples for Season 1:
+clementine_eyes_oneFrameDown_add.anm
+
+Examples for Season 2:
+wd200GM_eyes_up_add.anm
+
+Examples for Season 3/4:
+clementine_headEyeGesture_lookUp_add.anm
+
+You want to find the eye files for the character you want to swap, and only swap the ones that are similar to the filenames above. The directions are usually up, down, left, right, upleft, upright, downleft, downright. Some characters may not have all the directions, but you don't need to make copies for these. Just swap whatever they have. 
+
+Lastly for .anm files you may see blink and squint animations. These may look like [character]_face_blink_add.anm or [character]_face_squint_add.anm. You should rename these too. 
+
+For this basic Lilly to Kenny swap you don't really need the d3dmesh/d3dtx files that are in the txmesh folders since for Season 1 the game reads from one ttarch2 file for the entire season. However for Seasons 2-4 all files are contained within their respective episode files unlike Season 1. For the other seasons you will NEED to include the d3dmesh/d3dtx files for the character you want to swap. This will be covered in a model swap across episodes tutorial for season 4 later.
+
+So once you renamed all of lilly's files to kenny, drag all the files within Lilly's folders (the data, anichore folders you made for Lilly) straight into your game's Archives folder. It doesn't matter that there are a lot of files, that's perfectly normal. The good thing about this method is when you don't want to use the mod anymore you can simply delete these files. Be very careful not to accidentally delete any of your original files in the Archives folder if you do so. Sorting by date usually makes it so you don't accidentally do that. Then try to run the game and test your mod. If anything is wrong, you can always look back at the guide and check to see if you forgot to rename something. 
 
 
-
-
-
+## Season 4 model swap across episodes
+In progress
 
 ## Rehashed Models 
 Some characters reuse the same animations so you can swap them directly without having to worry about swapping their .anm or .ptable files. 
