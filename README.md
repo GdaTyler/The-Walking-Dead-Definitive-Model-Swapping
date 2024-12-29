@@ -38,12 +38,13 @@ So to open these ttarch2 files you will need Telltale Explorer. You can download
 
 
 
-Let's do an easy model swap for two characters in Season 1. So let's say you want to change Kenny into Lilly. 
+Let's do an easy model swap for two characters in Season 1. So let's say you want to change Lilly into Kenny. 
 
-What I usually do is make two folders to organize everything. One named Kenny, and one named Lilly.
-For both Kenny and Lilly I make three subfolders: data, txmesh, anichore to keep everything separate.
+What I usually do is make two folders to organize everything. One named Lilly, and one named Kenny.
+For both Lilly and Kenny I make three subfolders: data, txmesh, anichore to keep everything separate.
 
-![image](https://github.com/user-attachments/assets/c64c2f2d-cb51-475b-8edb-3f9a79660e56)
+![image](https://github.com/user-attachments/assets/03230ccd-cd1c-4d6d-a453-bb5ac54da6f8)
+
 
 So open Telltale Explorer and open WDC_pc_ProjectSeason1_data.ttarch2. In the search bar type kenny and go to Save All Files,  Save all visible files (Raw Dump). Save these to Kenny's data folder. 
 
@@ -51,17 +52,22 @@ Then search Lilly and do the same but save all the visible files to Lilly's data
 
 Do this same process for the txmesh and anichore ttarch2 files for episode 1 so that the files are in their appropriate folders. Files from txmesh.ttarch2 into their respective txmesh folders, anichore.ttarch2 files in their respective folders.
 
-So to swap Kenny into Lilly you must first look at his prop file.
+So to swap Lilly into Kenny you must first look at her prop file.
 
 Males usually for Season 1 start with sk54_, females, sk55_ and children sk56_
-Kenny's prop file is named sk54_kenny.prop
-So try to use lilly's data folder as a reference to rename this file. As we can see her prop name is sk55_lilly.prop
+Lilly's prop file is named sk55_lilly.prop
+So try to use Kenny's data folder as a reference to rename this file. As we can see her prop name is sk54_kenny.prop
 
-So we rename sk54_kenny.prop to sk55_lilly.prop.
+So we rename sk55_lilly.prop to sk54_kenny.prop.
 
 Next we want to swap the ptable files which control their mouth movements. 
 
-As we can see 
+As we can see Lilly has fewer ptable files than Kenny
+
+![image](https://github.com/user-attachments/assets/28a4c8f6-0996-45a8-a9fd-fdfd7a41d998)
+
+
+
 
 
 
