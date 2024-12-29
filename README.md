@@ -64,7 +64,8 @@ Next we want to swap the ptable files which control their mouth movements.
 
 As we can see Lilly has fewer ptable files than Kenny
 
-![image](https://github.com/user-attachments/assets/6600cfd3-94f4-4a03-accf-cbb950621474)
+![image](https://github.com/user-attachments/assets/bd013fdf-e6b6-4df8-b6ef-0f8a241b124a)
+
 
 That's not a problem. If a character doesn't have as many ptable files or anm files as another character, we can simply copy and paste to make up the difference.
 So for example, Lilly only has HappyA.ptable, while Kenny has HappyA, HappyB and Happy C. First make three copies of Lilly's HappyA.ptable.
