@@ -64,11 +64,21 @@ Next we want to swap the ptable files which control their mouth movements.
 
 As we can see Lilly has fewer ptable files than Kenny
 
-![image](https://github.com/user-attachments/assets/28a4c8f6-0996-45a8-a9fd-fdfd7a41d998)
+![image](https://github.com/user-attachments/assets/6600cfd3-94f4-4a03-accf-cbb950621474)
+
+That's not a problem. If a character doesn't have as many ptable files or anm files as another character, we can simply copy and paste to make up the difference.
+So for example, Lilly only has HappyA.ptable, while Kenny has HappyA, HappyB and Happy C. First make three copies of Lilly's HappyA.ptable.
+
+![image](https://github.com/user-attachments/assets/255134cc-38fa-4fe1-8021-2a66fe6efc42)
+
+Then you rename them as they are in Kenny's folder, using Kenny's folder as a reference. 
+
+![image](https://github.com/user-attachments/assets/2620efad-c22b-45d9-b51f-bf74673fe156)
 
 
-
-
+This is pretty much the same deal for swapping the .anm files for two characters since sometimes characters may have more files than others.
+Another problem you may encounter is this:
+You may also notice Lilly doesn't have a Surprise.ptable file like Kenny, you can use her Fear.ptable files instead as they convey similar emotions. You can use whatever files you feel are appropriate or closest.
 
 
 
