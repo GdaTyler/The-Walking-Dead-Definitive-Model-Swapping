@@ -43,6 +43,9 @@ Let's do an easy model swap for two characters in Season 1. So let's say you wan
 What I usually do is make two folders to organize everything. One named Kenny, and one named Lilly.
 For both Kenny and Lilly I make three subfolders: data, txmesh, anichore to keep everything separate.
 
+![image](https://github.com/user-attachments/assets/e0aa3972-b9b1-4b6a-9a1b-4a6907dfeba9)
+
+
 So open Telltale Explorer and open WDC_pc_ProjectSeason1_data.ttarch2. In the search bar type kenny and go to Save All Files,  Save all visible files (Raw Dump). Save these to Kenny's data folder. 
 
 Then search Lilly and do the same but save all the visible files to Lilly's data folder.
